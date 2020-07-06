@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="swiper-container">
+
+          <div id="menu-bar">
+         <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+         </div>
+         <ul class="navvy" id="navvy">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+
+
+
+        <div class="swiper-wrapper">
+
+
+
+
+
+
+            <div class="swiper-slide slide1">
+                <h1>page 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           
+            </div>
+        
+            <div class="swiper-slide slide2">
+                <h1>page 2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          
+            </div>
+   
+            <div class="swiper-slide slide3">
+                <h1>page 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+               <div class="swiper-slide slide4">
+                <h1>page 4</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+       
+       
+       
+        </div>
+    <!-- <div class="swiper-pagination"> -->
+
+                    <div class="swiper-button-prev swiper-button-white"></div>
+
+                <div class="swiper-button-next swiper-button-white"></div>
+               
+               
+            <!-- </div> -->
+  
+  </div>
+          
+
+  
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/navbar.js" > </script>
+<script>
+    // import Swiper JS
+//    import swiper from 'swiper/bundle';
+   // init Swiper:
+    var swiper = new Swiper('.swiper-container',{
+effect: 'cube',
+grabCursor: true,
+cubeEffect: {
+    shadow:true,
+    slideShadows:true,
+    shadowOffset: 20,
+    shadowScale:0.94
+},
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+    })
+</script>
+</body>
+</html>
