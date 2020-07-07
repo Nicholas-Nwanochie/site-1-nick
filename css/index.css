@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Montserrat+Subrayada&family=Russo+One&display=swap');
+
 html, body {
   position: relative;
   height: 100%;
@@ -25,9 +27,9 @@ body {
 }
 
 .swiper-slide h1 {
-  font-size: 5em;
+  font-size: 4em;
   line-height: 1em;
-}
+font-family: 'Montserrat Subrayada', sans-serif;}
 
 .swiper-slide h1:before {
   content: '';
@@ -42,17 +44,17 @@ body {
   font-size: 1.2em;
   line-height: 1.5em;
   margin-top: 7em;
+  font-family: 'Russo One', sans-serif;
 }
 
 .slide1 {
-  background: url("../img/tool.jpg");
+  background: url("../img/web3.jpg");
   background-size: cover;
   object-fit: cover;
 
 }
 .slide1 img{
-width: 100vw;
-height: 100vh;
+
 
 }
 
@@ -62,7 +64,7 @@ height: 100vh;
 }
 
 .slide2 {
-  background: url("../img/box2.jpg");
+  background: url("../img/trx.jpg");
   background-size: cover;
 }
 
@@ -87,7 +89,7 @@ height: 100vh;
 
 
 .slide3 {
-  background: url("../img/store.jpg");
+  background: url("../img/tool4.jpg");
   background-size: contain;
 }
 
@@ -96,7 +98,7 @@ height: 100vh;
   left: 0;
 }
 .slide4 {
-  background: url("../img/art.jpg");
+  background: url("../img/store.jpg");
   background-size: cover;
 }
 
@@ -116,4 +118,19 @@ height: 100vh;
 
 .swiper-button-prev {
   left: 3em;
+}
+
+
+.loaded{
+   
+    animation: move 1s infinite alternate;
+}
+@keyframes move {
+    from{
+        transform: translateX(0px);
+    }
+      to{
+        transform: translateX(20px);
+    }
+}
 }

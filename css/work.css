@@ -134,6 +134,14 @@ main {
 	white-space: nowrap;
 }
 
+h3{
+color:white;
+
+}
+p{
+color:white;
+
+}
 .codrops-icon {
 	display: inline-block;
 	margin: 0.15em;
@@ -199,7 +207,7 @@ main {
 
 .fullview__title {
 	display: none;
-	color: var(--color-title-full);
+	color: white;
 	font-weight: normal;
 	font-size: 1rem;
 }
@@ -224,7 +232,9 @@ main {
 
 .fullview__item-description {
 	font-size: 0.85rem;
-	color: var(--color-description-full);
+	color: white;
+		font-weight: bold;
+
 }
 
 .fullview__item-more {
